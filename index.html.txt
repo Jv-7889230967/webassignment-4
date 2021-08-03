@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">    
+<title>Food Website</title>
+</head>
+<body>
+    <nav class="navbar">
+      <ul>
+        <li style="float: left; font-size: x-large;font-family: 'Alfa Slab One', cursive;"><p>SHOPPE</p></li>
+          <li><a>About</a></li>
+          <li><a>Menu</a></li>
+          <li><a>Order</a></li>
+          <li><a>Services</a></li>
+          <li><a>Home</a></li>
+      </ul>
+
+    </nav>
+    <div id="slideshow">
+        <div class="wrapper">
+            <div class="slides">
+                <img src="https://images.unsplash.com/photo-1519558260268-cde7e03a0152?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" >
+            </div>
+            <div class="slides">
+                <img src="https://images.unsplash.com/photo-1598516802414-50a01bee818d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80">
+            </div>
+            <div class="slides">
+                <img src="https://images.unsplash.com/photo-1601944179066-29786cb9d32a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+            </div>
+            <div class="slides">
+                <img src="https://images.unsplash.com/photo-1491927570842-0261e477d937?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1868&q=80">
+            </div>
+            <div class="slides">
+                <img src="https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+            </div>
+            <div class="slides">
+                <img src="https://images.unsplash.com/photo-1611078489935-0cb964de46d6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80">
+            </div>
+            <div class="slides">
+                <img src="https://images.unsplash.com/photo-1486611367184-17759508999c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=666&q=80">
+            </div>
+            
+        </div>
+        <h1>OUR BEST PRODUCTS</h1>
+    </div>
+    <section id="container">
+        <figure>
+        <img src="https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-9-pro-1.jpg">
+         <figurecaption>
+        <h2>OnePlus 9 5G</h2>
+         <p>OnePlus 9 Pro 256 GB, 12 GB RAM, Pine Green, Smartphone</p>
+          <button>Buy Now</button> 
+         </figurecaption>
+          </figure>  
+        <figure>
+            <img src="https://images.samsung.com/is/image/samsung/in/galaxy-note20/gallery/in-galaxy-buds-live-r180-sm-r180nzkainu-frontmysticblack-275652064?$684_547_PNG$">
+           <figurecaption>
+            <h2>Galaxy Buds Live</h2>   
+            <p>Get 5% additional discount using referral code.
+                Iconic design that’s comfortable to wear</p>
+                <button>Buy Now</button>
+                </figurecaption>
+                </figure>
+            </section>
+       
+       
+            <h3>CONTACT US</h3>
+        
+        <div class="form">
+            <form>
+                <input style="border: 1px solid orange;" type="text" placeholder="First Name">
+                <input style="border: 1px solid orange;" type="text" placeholder="Last Name">
+
+            </form>
+            <form>
+            <input style="border: 1px solid orange;" type="text" placeholder="Mobile Number">
+            <input style="border: 1px solid orange;" type="text" placeholder="Email Adress">
+        </form>
+        <form>
+            <input style="border: 1px solid orange;" type="text" placeholder="Say Something" >
+        
+
+        </form>
+        <button style="background-color: orange; margin: 5px;width: 100%;position: relative;">SUBMIT</button>
+        </div>
+        
+
+    
+
+</body>
+</html>

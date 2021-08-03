@@ -1,0 +1,135 @@
+
+    ul{
+    list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color:rgb(78, 74, 74);
+ }
+     li{
+         float: right;
+         
+         }
+         li p{
+             color: white;
+             margin-left: 15px;
+         }
+     li a{
+         margin-top: 13px;
+        display: block;
+         color: white;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+        
+     }
+     li a:hover{
+      background-color: rgb(25, 177, 25);
+      cursor: pointer;
+      
+     }
+     #slideshow{
+        width: 60vw;
+        height: 700px;
+        margin: 50px auto;
+        overflow: hidden;
+
+     }
+     .slides{
+         float: left;
+     }
+     .slides img{
+        height: 500px;
+        width: 60vw;
+        }
+        .wrapper{
+            width: calc(70vw*6);
+            animation: 15s ease infinite slider;
+        }
+        @keyframes slider{
+           16%{
+               margin-left:0px;
+           } 
+           32%{
+            margin-left: calc(-60vw*1);
+        } 
+        48%{
+            margin-left: calc(-60vw*2);
+        } 
+        64%{
+            margin-left: calc(-60vw*3);
+        } 
+        80%{
+            margin-left: calc(-60vw*4);
+        } 
+        96%{
+            margin-left: calc(-60vw*5);
+        } 
+        16%{
+            margin-left: calc(-60vw*1);
+        } 
+        }
+        h1{
+            text-align: center;
+            margin-top: 480px;
+            font-family: 'Fredoka One', cursive;
+        }
+        .card img{
+            padding: 5px;
+            height: 150px;
+            width:130px;
+        }
+       
+    .card{
+        
+        border: 3px solid rgb(117, 117, 117);
+        border-radius: 10px;
+       height: 350px;
+        width: 210px;
+        margin: 40px;
+        
+    }
+    h2{
+        text-align: center;
+        margin: 2px;
+        font-family: 'Lobster', cursive;
+        color: mediumblue;
+    }
+    p{
+        font-family: 'Satisfy', cursive;
+    }
+    h3{
+        text-align: center;
+    }
+    #container{
+        width: 70vw;
+        height: 800px;
+        margin: 50px auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    figure{
+        width: 300px;
+        text-align: center;
+        margin: 20px;
+        padding: 15px;
+        border: 2px solid white;
+        font-size: 2rem;
+        color: #ccc;
+        box-shadow: 2px 2px 3px rgb(104,104,104);
+    }
+    figure:hover{
+        padding: 10px;
+        box-shadow: 0px 4px 4px grey;
+    }
+    figure img{
+        width: 100%;
+    }
+    .form{
+        border: 2px solid grey;
+    }
+    form{
+         margin: 5px;
+         padding: 8px;
+    }
